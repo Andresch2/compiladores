@@ -17,7 +17,7 @@ primary
     | NUMBER                        # Numero
     ;
 
-// lexer
+// Tokens
 NUMBER    : [0-9]+ ('.' [0-9]+)? ;
 FUNC_NAME : 'sqrt' | 'abs' | 'sin' | 'cos' | 'log' ;
 WS        : [ \t\r\n]+ -> skip ;
